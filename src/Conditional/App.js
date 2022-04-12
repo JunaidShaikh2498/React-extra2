@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ClassComp from './ClassComp';
-import FuncComp from './FuncComp';
+import ClassComp from './Conditional/ClassComp';
+import FuncComp from './Conditional/FuncComp';
 
 function App() {
   const [funcState,setFuncState]=useState(true);
